@@ -1,0 +1,490 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1D202B;
+    color: #e0c9a6;
+    margin: 0;
+    height: 3000px;
+}
+.container{
+    height: 2800px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #8D5F3D;
+}
+.navbar {
+    background-color: #1D202B;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    height: 50px;
+}
+.navbar li{
+     padding: 30px;
+     height: 30px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+    height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #b59e81;
+    font-weight: bold;
+    z-index: 30;
+    font-weight: inherit;
+}
+nav img{
+    width: 70px;
+    clear: both;
+    float: left;
+    position: absolute;
+    top: 30px;
+    right: 1030px;
+}
+
+.background {
+    background: url('../img/Photo.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    height: 500px;
+    filter: blur(5px);
+    margin-top: 80px;
+    z-index: 20;
+}
+.herro h1{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-size: 64px;
+}
+span{
+    color: #8D5F3D;
+}
+.herro p{
+    position: absolute;
+    top: 350px;
+    left: 500px
+}
+
+.herro-buttons button {
+    background-color: #c48b57;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+}
+.button button{
+    background-color: #c48b57;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+.herro-buttons button:hover {
+    background-color: #a67442;
+}
+.button button:hover {
+    background-color: #a67442;
+}
+
+
+.about {
+    padding: 30px;
+    background-color:#1D202B;
+}
+.about h2{
+    font-size: 54px;
+    font-weight: inherit;
+    color: #8D5F3D;
+}
+.about p{
+    display: inline-block;
+    height: 50px;
+    padding: 39px;
+    color: #BCA88D;
+    font-size: 15px;
+}
+
+.theory {
+    padding: 30px;
+    background-color: #1D202B;
+}
+.theory h2{
+    font-size: 54px;
+    font-weight: inherit;
+    color: #8D5F3D;
+}
+.theory p{
+    color: #BCA88D;
+}
+
+.theory button {
+    display: block;
+    margin: 20px auto;
+    background-color: #8D5F3D;
+    border: none;
+    padding: 10px;
+    color: #BCA88D;
+}
+.theory button:hover{
+    background-color: #a67442;
+}
+.theory a {
+    text-decoration: none;
+}
+
+.archetypes {
+    padding: 30px;
+}
+
+.archetype-list {
+    text-align: center;
+    width: 1000px;
+    float: left;
+    display: inline-block;
+}
+.four{
+     width: 1000px;
+}
+.four img{
+    height: 200px;
+}
+.guardian {
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    clear: both;
+    padding: 80px;
+}
+.guardian button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.guardian button:hover{
+    background-color: #121111;
+}
+.jester {
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+    clear: both;
+    padding: 80px;
+    
+}
+.jester button{
+    border-radius: 20px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+     height: 35px;
+}
+.rebel {
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    clear: both;
+    padding: 80px;
+}
+.rebel button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.rebel button:hover{
+    background-color: #121111;
+}
+.wizard{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    clear: both;
+    padding: 80px;
+}
+.wizard button{
+    border-radius: 20px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.hero{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    clear: both;
+    padding: 80px;
+}
+.hero button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.hero button:hover{
+    background-color: #121111;
+}
+.ruler{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+}
+.ruler button{
+    border-radius: 20px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.sage{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+}
+.sage button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.sage button:hover{
+    background-color: #121111;
+}
+.innocent{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+}
+.innocent button{
+    border-radius: 20px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.five {
+    width: 1000px;
+}
+.five img{
+    height: 200px;
+}
+.six{
+    width: 1000px;
+}
+.six img{
+     height: 200px;
+}
+.orphan{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+    clear: both; 
+}
+.orphan button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.orphan button:hover{
+    background-color: #121111;
+}
+.mentor{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+    clear: both;
+}
+.mentor  button{
+    border-radius: 20px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.seeker{
+    display: inline-block;
+    height: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+    clear: both;
+}
+.seeker  button{
+    border-radius: 20px;
+    background-color: #8D5F3D;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+.seeker button:hover{
+    background-color: #121111;
+}
+.creator{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    padding: 80px;
+    clear: both;
+}
+.creator button{
+    border-radius: 15px;
+    background-color: black;
+    color: #BCA88D;
+    font-size: 10px;
+    height: 35px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    background-color: #d4a373;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #b58358;
+}
+.archetypes h2{
+    font-size: 54px;
+    font-weight: inherit;
+    color: #8D5F3D;
+}
+footer {
+    background-color: #E5CEA2;
+    color: #e0c9a6;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+}
+input{
+    background-color: black;
+    border-radius: 20px;
+    text-align: center; 
+    color:  #BCA88D;
+}
+
+.socials img {
+    width: 25px;
+    margin: 10px;
+    float:left;
+}
+.socials p{
+    float: left;
+}
+.contacts p{
+   padding-top: 30px;
+   float: left;   
+   font-weight: inherit;  
+   color: black;
+}
+.contacts img{
+    float: left;
+    width: 70px;
+    float: left;
+    clear: both;
+}
+.p{
+    height: 40px;
+    float: left;
+    clear: both;
+}
+footer button {
+    background-color: #c48b57;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+footer button:active{
+    background-color: #a67442;
+}

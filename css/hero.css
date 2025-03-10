@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: black;
+	color:  #D3AC78;
+	height: 800px;
+}
+img{
+	width: 100px;
+	padding-left: 500px;
+}
+p{
+	text-align: center;
+	height: 150px;
+}
+h1{
+	text-align: center;
+	height: 100px;
+	color:  #8D5F3D;
+}
+span{
+	font-weight: bold;
+	color: #8D5F3D;
+}
+button{
+	background-color: #8D5F3D;
+	color:  #D3AC78;
+	height: 40px;
+	border-radius: 20px; 
+	width: 100px;
+	position: absolute;
+	top: 400px;	
+	left: 500px;
+}
+audio{
+	padding-top: 170px;
+	padding-left: 400px;
+}
